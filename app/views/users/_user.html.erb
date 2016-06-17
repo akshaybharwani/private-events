@@ -1,0 +1,5 @@
+<h1><%= current_user.name %></h1>
+<span><%= link_to "My profile", current_user %></span>
+
+<span><%= pluralize(current_user.created_events.count, "event") %> created</span>
+<%= button_to "Create event", new_event_path, method: :get, class: "new-event-btn btn btn-primary" %>

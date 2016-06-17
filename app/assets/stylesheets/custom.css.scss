@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1, h3, p {
+  text-align: center;
+}
+
+.container, .panel-container {
+  margin-top: 10px;
+}
